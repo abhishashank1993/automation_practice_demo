@@ -1,0 +1,2 @@
+Reports/Console[[:space:]]Logs/application.html filter=lfs diff=lfs merge=lfs -text
+*.html filter=lfs diff=lfs merge=lfs -text

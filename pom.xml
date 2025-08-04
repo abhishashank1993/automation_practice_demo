@@ -1,0 +1,410 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>MyComporium</groupId>
+	<artifactId>MyComporium</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Pyramid Automation</name>
+	<!-- For the Warning message Using platform encoding (Cp1252 actually) to 
+		copy filtered -->
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<base1.version>C:/WorkSpace/integratedautomationframework/src/Resources/Jars/sun.misc.BASE64Decoder.jar</base1.version>
+		<base.version>${project.basedir}/Resources/Jars/sun.misc.BASE64Decoder.jar</base.version>
+	</properties>
+	<repositories>
+		<repository>
+			<id>maven-repository</id>
+			<url>file:///${project.basedir}/maven-repository</url>
+		</repository>
+	</repositories>
+
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.pydDemoTest</groupId>
+			<artifactId>pydDemoTest</artifactId>
+			<version>11.0</version>
+		</dependency>
+		<dependency>
+			<groupId>sun.misc.BASE64Decoder</groupId>
+			<artifactId>sun.misc.BASE64Decoder</artifactId>
+			<scope>system</scope>
+			<version>1.0</version>
+			<systemPath>${project.basedir}/src/Resources/Jars/sun.misc.BASE64Decoder.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>ATUTestRecorder</groupId>
+			<artifactId>ATUTestRecorder</artifactId>
+			<scope>system</scope>
+			<version>1.0</version>
+			<systemPath>${project.basedir}/src/Resources/Jars/ATUTestRecorder.jar</systemPath>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager   -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.8.0</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/org.jsoup/jsoup   -->
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.15.3</version>
+		</dependency>
+		<!--   Webdriver Dependencies   -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.1.0</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver   -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-chrome-driver</artifactId>
+			<version>4.1.0</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/io.appium/java-client   -->
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>7.6.0</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/org.springframework/spring-core   -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>2.5.6</version>
+		</dependency>
+		<!--   TestNG Dependencies   -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.10</version>
+		</dependency>
+		<!--   Log4j Dependencies   -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/com.github.2gis.winium/winium-webdriver   -->
+		<dependency>
+			<groupId>com.github.2gis.winium</groupId>
+			<artifactId>winium-webdriver</artifactId>
+			<version>0.1.0-1</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/com.github.2gis.winium/winium-elements-desktop   -->
+		<dependency>
+			<groupId>com.github.2gis.winium</groupId>
+			<artifactId>winium-elements-desktop</artifactId>
+			<version>0.2.0-1</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/javax.xml.soap/javax.xml.soap-api   -->
+		<dependency>
+			<groupId>javax.xml.soap</groupId>
+			<artifactId>javax.xml.soap-api</artifactId>
+			<version>1.3.5</version>
+		</dependency>
+		<!--   DB Unit Dependencies   -->
+		<dependency>
+			<groupId>dbunit</groupId>
+			<artifactId>dbunit</artifactId>
+			<version>2.2</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/org.json/json   -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20151123</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/mysql/mysql-connector-java   -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.13</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple   -->
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/org.skyscreamer/jsonassert   -->
+		<dependency>
+			<groupId>org.skyscreamer</groupId>
+			<artifactId>jsonassert</artifactId>
+			<version>1.4.0</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/org.apache.poi/poi 3.9   -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/net.sourceforge.jexcelapi/jxl   -->
+		<dependency>
+			<groupId>net.sourceforge.jexcelapi</groupId>
+			<artifactId>jxl</artifactId>
+			<version>2.6</version>
+		</dependency>
+		<!--   MongoDB Dependencies   -->
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>3.2.1</version>
+		</dependency>
+		<!--   Guice Dependencies   -->
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<version>3.0</version>
+		</dependency>
+		<!--   ReportNG Dependencies   -->
+		<dependency>
+			<groupId>org.uncommons</groupId>
+			<artifactId>reportng</artifactId>
+			<version>1.1.4</version>
+		</dependency>
+		<!--   Httpclient Dependencies   -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.6</version>
+		</dependency>
+		<!--   AppliTools Dependencies   -->
+		<dependency>
+			<groupId>com.applitools</groupId>
+			<artifactId>eyes-selenium-java</artifactId>
+			<version>RELEASE</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/com.microsoft.sqlserver/sqljdbc4   -->
+		<!--   https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc   -->
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>12.6.0.jre11</version> <!-- 6.1.2.jre8-preview-->
+		</dependency>
+		
+		<dependency>
+			<groupId>com.zaxxer</groupId>
+			<artifactId>HikariCP</artifactId>
+			<version>4.0.3</version>
+		</dependency>
+  
+  
+		<!--   https://mvnrepository.com/artifact/javax.xml/jaxp-api   -->
+		<dependency>
+			<groupId>javax.xml</groupId>
+			<artifactId>jaxp-api</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/xmlunit/xmlunit   -->
+		<dependency>
+			<groupId>xmlunit</groupId>
+			<artifactId>xmlunit</artifactId>
+			<version>1.6</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/de.sstoehr/har-reader   -->
+		<dependency>
+			<groupId>de.sstoehr</groupId>
+			<artifactId>har-reader</artifactId>
+			<version>2.0.3</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/com.google.guava/guava   -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>23.0</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/com.github.livesense/org.liveSense.fragment.sun.misc   -->
+		<dependency>
+			<groupId>com.github.livesense</groupId>
+			<artifactId>org.liveSense.fragment.sun.misc</artifactId>
+			<version>1.0.4</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/commons-codec/commons-codec   -->
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/net.iharder/base64   -->
+		<dependency>
+			<groupId>net.iharder</groupId>
+			<artifactId>base64</artifactId>
+			<version>2.3.8</version>
+		</dependency>
+		<!--   End of webdriver dependencies   -->
+		<!--   https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api   -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<version>5.5.2</version>
+			<scope>test</scope>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/junit/junit   -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/io.cucumber/cucumber-java   -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>5.2.0</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/io.cucumber/cucumber-core   -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-core</artifactId>
+			<version>5.2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-jvm-deps</artifactId>
+			<version>1.0.5</version>
+			<scope>provided</scope>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/info.cukes/cucumber-testng   -->
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>1.2.5</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/io.cucumber/cucumber-junit   -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>5.2.0</version>
+			<scope>test</scope>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/com.cedarsoftware/java-util   -->
+		<dependency>
+			<groupId>com.cedarsoftware</groupId>
+			<artifactId>java-util</artifactId>
+			<version>1.8.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.mkolisnyk</groupId>
+			<artifactId>cucumber-reports</artifactId>
+			<version>0.0.11</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit-dep</artifactId>
+			<version>4.10</version>
+			<scope>test</scope>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/io.cucumber/cucumber-core   -->
+		<!--  <dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-core</artifactId>
+			<version>5.2.0</version>
+		</dependency>  -->
+		<!--   https://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore   -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpcore</artifactId>
+			<version>4.4.10</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/org.apache.httpcomponents/httpmime   -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpmime</artifactId>
+			<version>4.5.3</version>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>3.0.7</version>
+			<!--   <scope>runtime</scope>   -->
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>3.0.7</version>
+			<scope>test</scope>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/org.apache.xmlbeans/xmlbeans   -->
+		<dependency>
+			<groupId>org.apache.xmlbeans</groupId>
+			<artifactId>xmlbeans</artifactId>
+			<version>2.6.0</version>
+		</dependency>
+		<!--   <dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1</version>
+		</dependency>  -->
+		<!--  <dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.3.3</version>
+		</dependency>  -->
+		<!--   https://mvnrepository.com/artifact/net.lingala.zip4j/zip4j   -->
+		<dependency>
+			<groupId>net.lingala.zip4j</groupId>
+			<artifactId>zip4j</artifactId>
+			<version>1.2.5</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/com.assertthat/selenium-shutterbug   -->
+		<dependency>
+			<groupId>com.assertthat</groupId>
+			<artifactId>selenium-shutterbug</artifactId>
+			<version>0.9.3</version>
+		</dependency>
+		<!--   https://mvnrepository.com/artifact/javax.mail/javax.mail-api   -->
+		<!--  <dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>javax.mail-api</artifactId>
+			<version>1.6.2</version>
+		</dependency>   -->
+		<dependency>
+			<groupId>com.sun.mail</groupId>
+			<artifactId>javax.mail</artifactId>
+			<version>1.6.2</version>
+		</dependency>
+		<!--  <dependency>
+			<groupId>com.microsoft.ews-java-api</groupId>
+			<artifactId>ews-java-api</artifactId>
+			<version>2.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.14</version>
+		</dependency>  -->
+		<dependency>
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox</artifactId>
+			<version>2.0.27</version>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.4.0</version>
+				<configuration>
+					<mainClass>Launcher.Launcher</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
+</project>

@@ -1,0 +1,144 @@
+
+<html>
+	<style>
+		.subheading { BORDER-RIGHT:#000000 1px solid;PADDING-RIGHT: 4px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 4px;FONT-WEIGHT: bold;FONT-SIZE: 12pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid;COLOR: #000000;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Calibri,helvetica, sans-serif;HEIGHT: 20px;BACKGROUND-COLOR: #E5E6E6;Color: #000000}
+		.subheading1{BORDER-RIGHT: #000000 1px solid;BACKGROUND-COLOR: #1D1761;PADDING-RIGHT: 4px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 4px;FONT-WEIGHT: bold;FONT-SIZE: 13pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid;COLOR: #000000;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Calibri,helvetica, sans-serif;HEIGHT: 10px;color:white}
+		.subheading2{BORDER-RIGHT: #000000 1px solid;PADDING-RIGHT: 2px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 2px;FONT-WEIGHT: bold;FONT-SIZE: 12pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid;COLOR: #000000;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Calibri,helvetica, sans-serif;HEIGHT: 10px;BACKGROUND-COLOR: #6EBF4B;Color: #000000}
+		.subheading3 { BORDER-RIGHT:#000000 1px solid;PADDING-RIGHT: 4px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 4px;FONT-WEIGHT: bold;FONT-SIZE: 12pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid;COLOR: #000000;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Calibri,helvetica, sans-serif;HEIGHT: 20px;BACKGROUND-COLOR: #C0C0C0;Color: #000000}
+		.tdborder_1{BORDER-RIGHT: #000000 1px solid;PADDING-RIGHT: 4px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 4px;FONT-SIZE: 12pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid;COLOR: #000000;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Calibri, helvetica,  sans-serif;HEIGHT: 20px}
+		.tdborder_1_Pass{BORDER-RIGHT: #000000 1px solid;PADDING-RIGHT: 4px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 4px;FONT-SIZE: 12pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid;COLOR: #00ff00;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Calibri,  helvetica, sans-serif;HEIGHT: 20px}
+		.SnapShotLink_style{PADDING-RIGHT: 4px;PADDING-LEFT: 4px;FONT-SIZE: 12pt;PADDING-BOTTOM: 0px;COLOR: #0000EE;PADDING-TOP: 0px;FONT-FAMILY: Calibri, helvetica, sans-serif;HEIGHT: 20px}
+		.tdborder_1_Fail{BORDER-RIGHT: #000000 1px solid;PADDING-RIGHT: 4px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 4px;FONT-SIZE: 12pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid; COLOR: #ff0000;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Calibri, helvetica, sans-serif;HEIGHT: 20px}
+		.tdborder_1_Done{BORDER-RIGHT: #000000 1px solid;PADDING-RIGHT: 4px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 4px;FONT-SIZE: 12pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid; COLOR: #ffcc00;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Calibri,  helvetica, sans-serif;HEIGHT: 20px}
+		.tdborder_1_Skipped{BORDER-RIGHT: #000000 1px solid;PADDING-RIGHT: 4px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 4px;FONT-SIZE: 12pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px  solid;COLOR: #00ccff;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Calibri, helvetica, sans-serif;HEIGHT: 20px}
+		.tdborder_1_Warning{BORDER-RIGHT: #000000 1px solid;PADDING-RIGHT: 4px;BORDER-TOP: #000000 1px solid;PADDING-LEFT: 4px;FONT-SIZE: 12pt;PADDING-BOTTOM: 0px;BORDER-LEFT: #000000 1px solid;COLOR: #660066;PADDING-TOP: 0px;BORDER-BOTTOM: #000000 1px solid;FONT-FAMILY: Calibri, helvetica, sans-serif;HEIGHT: 20px}
+		.heading {FONT-WEIGHT: bold; FONT-SIZE: 17px; COLOR: #005484;FONT-FAMILY: Calibri, Verdana, Tahoma, Calibri;}
+		.style1 { border: 1px solid #8eb3d8;padding: 0px 4px;FONT-WEIGHT: bold;FONT-SIZE: 12pt;COLOR: #000000;FONT-FAMILY: Calibri, helvetica, sans-serif;HEIGHT: 20px;width: 180px;}
+		.style3 { border: 1px solid #8eb3d8;padding: 0px 4px;FONT-WEIGHT: bold;FONT-SIZE: 12pt;COLOR: #000000;FONT-FAMILY: Calibri, helvetica, sans-serif;HEIGHT: 20px;width: 2px;}
+	</style>
+
+	<head>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script type="text/javascript">
+			google.charts.load('current', {'packages':['corechart']});
+			google.charts.setOnLoadCallback(drawChart);
+			
+			function drawChart() {
+
+				var data = google.visualization.arrayToDataTable([
+					['Task', 'Execution'],							
+					['Passed', _TEST_CASES_PASSED_],
+					['Failed', _TEST_CASES_FAILED_],
+				]);
+
+				var options = {
+					title:'',
+		
+					chartArea:{'width':'25%','height':'75%'},
+					colors:["#208A18","#ff4000"],
+					legend:{'position':'bottom'},
+					is3D: true,
+					pieStartAngle:90
+				};
+
+				var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+					chart.draw(data, options);
+			}
+				
+			function expandCollapse(showHide,id) {
+        
+				var hideShowDiv = document.getElementById(showHide);
+				var label = document.getElementById(id);
+
+				if (hideShowDiv.style.display == 'none') {
+					label.innerHTML = label.innerHTML.replace("[+]", "[-]");
+					hideShowDiv.style.display = 'block';            
+				} else {
+					label.innerHTML = label.innerHTML.replace("[-]", "[+]");
+					hideShowDiv.style.display = 'none';
+				}
+			}
+		</script>
+	</head>
+	
+	<body vlink="FF00FF">
+		<table cellSpacing='0' cellPadding='0' border='1' align='center'  style='width:96%; margin-left:20px;'>
+			<td class='subheading1' colspan=5 align=center><p style='font-size:1.8em'>
+				<body link='#00ff00' vlink="FF00FF">Automation Execution Summary Report</body>
+			</td>
+	
+			<table style="width:96%; margin-left:20px;" cellpadding="0" cellspacing="0"  border="0">
+				<tr>			
+					<td class="tdborder_1" align="center">
+						<table border="1px" style="align:left;display: inline-block;height:170px;border-collapse:collapse;border-style: hidden;">
+							<tbody>
+								
+								<tr style="width:50%;" >
+									<td class="subheading2" colspan ="2" align ="center">Execution Details</td>
+								</tr>	
+								<tr >
+									<td class="tdborder_1" align="left" ><b>Application</b></td>			
+									<td class="tdborder_1" align="left" >_APPLICATION_NAME_</td>
+								</tr>								
+								<tr >
+									<td class="tdborder_1" align="left" ><b>Test Suite</b></td>			
+									<td class="tdborder_1" align="left" >_SUITE_NAME_</td>
+								</tr>
+									
+								<tr >
+									<td align="left" class="tdborder_1" ><b>Build Version</b></td>
+									<td align="left" class="tdborder_1" >_BUILD_VERSION_</td>  
+								</tr>
+								<tr >
+									<td align="left" class="tdborder_1" ><b>Environment</b></td>
+									<td align="left" class="tdborder_1" >_ENVIRONMENT_</td>  
+								</tr>
+								
+								<tr style="width:50%;">
+									<td align="left" class="tdborder_1" ><b>Application URL</b></td>
+									<td align="left" class="tdborder_1" >_APPLICATION_URL_</td>  
+								</tr>	
+								<tr style="width:50%;">
+									<td align="left" class="tdborder_1" ><b>Browser</b></td>
+									<td align="left" class="tdborder_1" >_BROWSER_</td>  
+								</tr>
+								<tr >
+									<td align="left" class="tdborder_1" ><b>Run Duration</b></td>
+									<td align="left" class="tdborder_1" >_RUN_DURATION_</td>  
+								</tr>							
+							</tbody>
+						</table>
+						
+						<table  border="1px" style="align:center;display: inline-block;height:170px;border-collapse:collapse;border-style: hidden;">
+											
+							<div id="piechart" style="width: 570px; height: 185px;display: inline-block;"></div>
+						
+							<tbody>
+								<tr style="width:100%;" >
+									<td class="subheading2" colspan ="2" align ="center">Overall Execution Status</td>
+								</tr>				
+								<tr >
+									<td align="center" style="color:green;"><b>Passed</b></td>	
+									<td align="center" class="tdborder_1" style="color:green;"><b>_TEST_CASES_PASSED_</b></td>										
+								</tr>
+								<tr>
+									<td align="center"  style="color:red;"><b>Failed</b></td>
+									<td align="center" class="tdborder_1" style="color:red;"><b>_TEST_CASES_FAILED_</b></td>  
+								</tr>		
+								<tr >
+									<td align="center" ><b>Total</b></td>	
+									<td align="center" class="tdborder_1"><b>_TOTAL_</b></td> 
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</table>
+		
+		<table class='subheading2' colspan=4 align=center style="width:96%; margin-left:20px;">	
+			<td align=left  width ='60%'>Functionality</td>
+			<td align=center  width ='10%'>Passed</td>
+			<td align=center  width ='10%'>Failed</td>
+			<td align=center  width ='10%'>Total</td>
+		</table>
