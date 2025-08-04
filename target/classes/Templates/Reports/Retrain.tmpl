@@ -1,0 +1,22 @@
+	<script>
+        "use strict";
+        let ele_BUTTONID_ = document.getElementById('_BUTTONID_');
+        ele_BUTTONID_.addEventListener("click", (e) => {
+            e.preventDefault();
+			var data=_JSONPROPERTIES_;
+            fetch('_AFMTURL_objectManager/updatePropertiesOfObject', {
+                method: 'POST',
+                body:           //Converting JS object into JSON
+					JSON.stringify(data)
+                ,
+				
+                headers: {				
+                'Content-type': 'application/json'				
+                },
+        })
+            .then((response) => response.json())
+            .then((json) => console.log(json))
+            .catch((e) => console.log(e));
+        });
+
+    </script>

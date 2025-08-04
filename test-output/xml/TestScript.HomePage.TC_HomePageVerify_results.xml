@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Desktop Web@Chrome#TestScript.TestSuite.HomePage.HomePageVerify_TC_1_chrome"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="21.539">
+  <properties />
+  
+  
+            <testcase name="verifyHomePageLaunch" time="21.539" classname="TestScript.HomePage.TC_HomePageVerify" />
+      
+</testsuite>

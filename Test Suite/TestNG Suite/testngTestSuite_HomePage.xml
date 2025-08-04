@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuiteHomePage" parallel ="tests" thread-count ="1">
+	<parameter name ="Browser" value ="Chrome"/>
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>		
+	</listeners>
+		<test name="Desktop Web@Chrome#TestScript.TestSuite.HomePage.HomePageVerify_TC_1_chrome">
+		<parameter name ="browserOrAUT" value ="chrome"/>
+		<parameter name ="operatingSystem" value =""/>
+		<parameter name ="iteration" value ="1"/>
+		<parameter name ="deviceName" value =""/>
+		<parameter name ="operatingSystemVersion" value =""/>
+		<parameter name ="udid" value =""/>
+		<parameter name ="emulatorOrSimulator" value =""/>
+		<parameter name ="cloudID" value =""/>
+		<classes> <class name="TestScript.HomePage.TC_HomePageVerify"/></classes>
+	</test> <!-- Test -->	
+	
+	
+		
+
+</suite> <!-- Suite -->

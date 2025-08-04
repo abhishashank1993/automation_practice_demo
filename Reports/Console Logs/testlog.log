@@ -642,3 +642,1221 @@
 2024-03-18 12:13:36,920 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
 2024-03-18 12:13:37,175 - DataLibs.Excel -INFO - Data against Testcase  "AccountOverview.SanityTestOVERVIEWVerifyChangeOfAutopayAndPaperlessIndicators_MYCOMP46_1" fetched successfully.
 2024-03-18 12:13:37,175 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-04 19:05:58,894 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-04 19:05:58,905 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-04 19:05:59,960 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 19:06:00,582 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 19:06:05,123 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-04 19:06:05,462 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-04 19:06:05,740 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-04 19:06:05,742 - Launcher.Launcher -ERROR - Unable to read data from Test Suite file, or none of the test case is marked as yes for execution
+2025-08-04 19:18:17,158 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-04 19:18:17,171 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-04 19:18:18,192 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 19:18:18,713 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 19:18:20,572 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-04 19:18:20,725 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-04 19:18:20,727 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-04 19:18:23,404 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:18:23,497 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-04 19:18:23,505 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-04 19:18:23,579 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 19:18:24,241 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:18:25,879 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 19:18:25,880 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-04 19:18:26,092 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 19:18:26,503 - Launcher.Launcher -ERROR - Issue while executing testng.
+ Error is :Cannot invoke "java.lang.CharSequence.toString()" because "replacement" is null
+2025-08-04 19:33:58,808 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-04 19:33:58,815 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-04 19:33:59,505 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 19:33:59,857 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 19:34:01,327 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-04 19:34:01,437 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-04 19:34:01,438 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-04 19:34:03,900 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:34:03,973 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-04 19:34:03,980 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-04 19:34:04,033 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 19:34:04,450 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:34:05,587 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 19:34:05,588 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-04 19:34:05,746 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 19:34:08,591 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-04 19:34:09,779 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:34:09,952 - DataLibs.Excel -ERROR - Error while reading file  "./src/dataEngine/DataFiles/MasterTestData_QA.xlsx".
+ Error is -: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "sheet" is null.
+2025-08-04 19:34:09,952 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-04 19:34:13,593 - Utils.ReadXML -ERROR - OR file- 'Object Manager/OR/ContentCatalog.xml.xml'  is not present in the OR folder location. Error - D:\New folder\automation_practice_demo\Object Manager\OR\ContentCatalog.xml.xml (The system cannot find the file specified)
+2025-08-04 19:34:13,595 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 19:34:13,621 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a4ad7f7508c9b10aabe83ae38b902101, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55659/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a4ad7f7508c9b10aabe83ae38b902101
+2025-08-04 19:34:13,622 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 19:34:15,630 - Utils.ReadXML -ERROR - OR file- 'Object Manager/OR/ContentCatalog.xml.xml'  is not present in the OR folder location. Error - D:\New folder\automation_practice_demo\Object Manager\OR\ContentCatalog.xml.xml (The system cannot find the file specified)
+2025-08-04 19:34:15,631 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 19:34:15,655 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a4ad7f7508c9b10aabe83ae38b902101, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55659/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a4ad7f7508c9b10aabe83ae38b902101
+2025-08-04 19:34:15,657 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 19:34:17,672 - Utils.ReadXML -ERROR - OR file- 'Object Manager/OR/ContentCatalog.xml.xml'  is not present in the OR folder location. Error - D:\New folder\automation_practice_demo\Object Manager\OR\ContentCatalog.xml.xml (The system cannot find the file specified)
+2025-08-04 19:34:17,673 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 19:34:17,698 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a4ad7f7508c9b10aabe83ae38b902101, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55659/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a4ad7f7508c9b10aabe83ae38b902101
+2025-08-04 19:34:17,709 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-04 19:34:21,176 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:34:21,755 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-04 19:34:22,052 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-04 19:34:22,510 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:34:23,763 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-04 19:34:23,764 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 19:35:40,321 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-04 19:35:40,328 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-04 19:35:41,045 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 19:35:41,386 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 19:35:42,720 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-04 19:35:42,845 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-04 19:35:42,846 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-04 19:35:45,291 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:35:45,359 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-04 19:35:45,365 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-04 19:35:45,419 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 19:35:45,816 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:35:46,933 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 19:35:46,934 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-04 19:35:47,067 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 19:35:49,834 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-04 19:35:50,789 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:35:50,950 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-04 19:35:50,951 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-04 19:35:54,802 - Utils.ReadXML -ERROR - OR file- 'Object Manager/OR/ContentCatalog.xml.xml'  is not present in the OR folder location. Error - D:\New folder\automation_practice_demo\Object Manager\OR\ContentCatalog.xml.xml (The system cannot find the file specified)
+2025-08-04 19:35:54,804 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 19:35:54,841 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fcf9aa8125f669db8a1350032e4b714a, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55749}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55749/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fcf9aa8125f669db8a1350032e4b714a
+2025-08-04 19:35:54,844 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 19:35:56,853 - Utils.ReadXML -ERROR - OR file- 'Object Manager/OR/ContentCatalog.xml.xml'  is not present in the OR folder location. Error - D:\New folder\automation_practice_demo\Object Manager\OR\ContentCatalog.xml.xml (The system cannot find the file specified)
+2025-08-04 19:35:56,854 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 19:35:56,877 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fcf9aa8125f669db8a1350032e4b714a, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55749}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55749/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fcf9aa8125f669db8a1350032e4b714a
+2025-08-04 19:35:56,879 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 19:35:58,899 - Utils.ReadXML -ERROR - OR file- 'Object Manager/OR/ContentCatalog.xml.xml'  is not present in the OR folder location. Error - D:\New folder\automation_practice_demo\Object Manager\OR\ContentCatalog.xml.xml (The system cannot find the file specified)
+2025-08-04 19:35:58,901 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 19:35:58,921 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fcf9aa8125f669db8a1350032e4b714a, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55749}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55749/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fcf9aa8125f669db8a1350032e4b714a
+2025-08-04 19:35:58,926 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-04 19:36:01,250 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:36:01,808 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-04 19:36:02,114 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-04 19:36:02,566 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:36:03,807 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-04 19:36:03,807 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 19:37:19,345 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-04 19:37:19,352 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-04 19:37:20,102 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 19:37:20,456 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 19:37:21,900 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-04 19:37:22,017 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-04 19:37:22,018 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-04 19:37:24,519 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:37:24,585 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-04 19:37:24,591 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-04 19:37:24,666 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 19:37:25,101 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:37:26,618 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 19:37:26,619 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-04 19:37:26,807 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 19:37:30,011 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-04 19:37:31,022 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:37:31,207 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-04 19:37:31,207 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-04 19:37:34,716 - Utils.ReadXML -ERROR - Object 'TextBox_username' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 19:37:34,718 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 19:37:34,759 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bab9b92202a841d3f9c86fee518545c3, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55833/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bab9b92202a841d3f9c86fee518545c3
+2025-08-04 19:37:34,762 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 19:37:36,779 - Utils.ReadXML -ERROR - Object 'Textpass_Password' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 19:37:36,780 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 19:37:36,794 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bab9b92202a841d3f9c86fee518545c3, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55833/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bab9b92202a841d3f9c86fee518545c3
+2025-08-04 19:37:36,795 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 19:37:38,818 - Utils.ReadXML -ERROR - Object 'Button_Login' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 19:37:38,820 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 19:37:38,835 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bab9b92202a841d3f9c86fee518545c3, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55833/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bab9b92202a841d3f9c86fee518545c3
+2025-08-04 19:37:38,843 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-04 19:37:42,202 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:37:42,836 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-04 19:37:43,132 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-04 19:37:43,611 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:37:44,901 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-04 19:37:44,902 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 19:49:05,267 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-04 19:49:05,274 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-04 19:49:05,962 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 19:49:06,291 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 19:49:07,762 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-04 19:49:07,888 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-04 19:49:07,888 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-04 19:49:10,408 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:49:10,467 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-04 19:49:10,472 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-04 19:49:10,538 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 19:49:10,953 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:49:12,023 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 19:49:12,023 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-04 19:49:12,149 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 19:49:14,962 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-04 19:49:15,995 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:49:16,165 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-04 19:49:16,167 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-04 19:49:20,237 - Utils.ReadXML -ERROR - Object 'TextBox_username' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 19:49:20,238 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 19:49:20,259 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [03f4c8d6bc92fee4352432b91152a71d, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55997/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03f4c8d6bc92fee4352432b91152a71d
+2025-08-04 19:49:20,260 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 19:49:22,272 - Utils.ReadXML -ERROR - Object 'Textpass_Password' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 19:49:22,273 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 19:49:22,291 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [03f4c8d6bc92fee4352432b91152a71d, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55997/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03f4c8d6bc92fee4352432b91152a71d
+2025-08-04 19:49:22,292 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 19:49:24,303 - Utils.ReadXML -ERROR - Object 'Button_Login' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 19:49:24,306 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 19:49:24,325 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [03f4c8d6bc92fee4352432b91152a71d, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55997/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03f4c8d6bc92fee4352432b91152a71d
+2025-08-04 19:49:24,333 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-04 19:49:27,718 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:49:28,332 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-04 19:49:28,620 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-04 19:49:29,034 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:49:30,325 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-04 19:49:30,326 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 19:54:48,910 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-04 19:54:48,917 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-04 19:54:49,653 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 19:54:50,110 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 19:54:51,630 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-04 19:54:51,757 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-04 19:54:51,758 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-04 19:54:54,315 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:54:54,400 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-04 19:54:54,407 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-04 19:54:54,480 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 19:54:54,947 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:54:56,327 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 19:54:56,328 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-04 19:54:56,511 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 19:54:59,603 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-04 19:55:00,655 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:55:00,902 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-04 19:55:00,903 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-04 19:55:05,112 - Utils.ReadXML -ERROR - Object 'TextBox_username' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 19:55:05,114 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 19:55:05,140 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ac9f36fb1cc5508925b7ea8ee31c4943, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56180/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac9f36fb1cc5508925b7ea8ee31c4943
+2025-08-04 19:55:05,141 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 19:55:07,158 - Utils.ReadXML -ERROR - Object 'Textpass_Password' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 19:55:07,159 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 19:55:07,175 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ac9f36fb1cc5508925b7ea8ee31c4943, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56180/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac9f36fb1cc5508925b7ea8ee31c4943
+2025-08-04 19:55:07,176 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 19:55:09,192 - Utils.ReadXML -ERROR - Object 'Button_Login' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 19:55:09,193 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 19:55:09,204 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ac9f36fb1cc5508925b7ea8ee31c4943, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56180/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac9f36fb1cc5508925b7ea8ee31c4943
+2025-08-04 19:55:09,210 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-04 19:55:11,639 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:55:12,340 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-04 19:55:12,657 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-04 19:55:13,151 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 19:55:14,523 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-04 19:55:14,524 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 20:37:32,001 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-04 20:37:32,011 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-04 20:37:33,000 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 20:37:33,507 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 20:37:35,218 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-04 20:37:35,399 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-04 20:37:35,401 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-04 20:37:38,090 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 20:37:38,185 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-04 20:37:38,198 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-04 20:37:38,291 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 20:37:38,883 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 20:37:40,567 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 20:37:40,568 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-04 20:37:40,799 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 20:37:47,218 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-04 20:37:48,751 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 20:37:49,028 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-04 20:37:49,028 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-04 20:37:53,963 - Utils.ReadXML -ERROR - Object 'TextBox_username' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 20:37:53,965 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 20:37:54,001 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [100d7102da6adcb525a631b5623d8c55, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58199/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 100d7102da6adcb525a631b5623d8c55
+2025-08-04 20:37:54,002 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 20:37:56,028 - Utils.ReadXML -ERROR - Object 'Textpass_Password' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 20:37:56,030 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 20:37:56,050 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [100d7102da6adcb525a631b5623d8c55, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58199/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 100d7102da6adcb525a631b5623d8c55
+2025-08-04 20:37:56,052 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 20:37:58,065 - Utils.ReadXML -ERROR - Object 'Button_Login' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 20:37:58,066 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 20:37:58,084 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [100d7102da6adcb525a631b5623d8c55, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58199/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 100d7102da6adcb525a631b5623d8c55
+2025-08-04 20:37:58,094 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-04 20:38:01,201 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 20:38:01,967 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-04 20:38:02,367 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-04 20:38:03,085 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 20:38:05,282 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-04 20:38:05,283 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 20:40:36,125 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-04 20:40:36,136 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-04 20:40:37,191 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 20:40:37,864 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 20:40:39,678 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-04 20:40:39,855 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-04 20:40:39,856 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-04 20:40:42,522 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 20:40:42,625 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-04 20:40:42,635 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-04 20:40:42,732 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 20:40:43,353 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 20:40:45,010 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 20:40:45,010 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-04 20:40:45,261 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 20:40:49,230 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-04 20:40:50,537 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 20:40:50,782 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-04 20:40:50,783 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-04 20:40:54,746 - Utils.ReadXML -ERROR - OR file- 'Object Manager/OR/Desktop_ContentCatalo.xml'  is not present in the OR folder location. Error - D:\New folder\automation_practice_demo\Object Manager\OR\Desktop_ContentCatalo.xml (The system cannot find the file specified)
+2025-08-04 20:40:54,748 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 20:40:54,783 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [631d974871fec50382532cec9a6c8913, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58367}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58367/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 631d974871fec50382532cec9a6c8913
+2025-08-04 20:40:54,785 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 20:40:56,798 - Utils.ReadXML -ERROR - OR file- 'Object Manager/OR/Desktop_ContentCatalo.xml'  is not present in the OR folder location. Error - D:\New folder\automation_practice_demo\Object Manager\OR\Desktop_ContentCatalo.xml (The system cannot find the file specified)
+2025-08-04 20:40:56,799 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 20:40:56,821 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [631d974871fec50382532cec9a6c8913, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58367}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58367/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 631d974871fec50382532cec9a6c8913
+2025-08-04 20:40:56,823 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 20:40:58,841 - Utils.ReadXML -ERROR - OR file- 'Object Manager/OR/Desktop_ContentCatalo.xml'  is not present in the OR folder location. Error - D:\New folder\automation_practice_demo\Object Manager\OR\Desktop_ContentCatalo.xml (The system cannot find the file specified)
+2025-08-04 20:40:58,842 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 20:40:58,862 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [631d974871fec50382532cec9a6c8913, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58367}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58367/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 631d974871fec50382532cec9a6c8913
+2025-08-04 20:40:58,873 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-04 20:41:01,924 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 20:41:02,838 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-04 20:41:03,429 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-04 20:41:04,199 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 20:41:05,881 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-04 20:41:05,882 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 20:41:57,005 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-04 20:41:57,018 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-04 20:41:58,069 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 20:41:58,699 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 20:42:00,428 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-04 20:42:00,647 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-04 20:42:00,648 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-04 20:42:03,369 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 20:42:03,484 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-04 20:42:03,493 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-04 20:42:03,581 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 20:42:04,256 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 20:42:06,065 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 20:42:06,066 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-04 20:42:06,319 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 20:42:10,447 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-04 20:42:11,951 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 20:42:12,212 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-04 20:42:12,213 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-04 20:42:16,040 - Utils.ReadXML -ERROR - OR file- 'Object Manager/OR/Desktop_ContentCatalog.xml.xml'  is not present in the OR folder location. Error - D:\New folder\automation_practice_demo\Object Manager\OR\Desktop_ContentCatalog.xml.xml (The system cannot find the file specified)
+2025-08-04 20:42:16,044 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 20:42:16,076 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7d1afb895916245785f147dbd5a9a60c, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58482/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d1afb895916245785f147dbd5a9a60c
+2025-08-04 20:42:16,078 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 20:42:18,093 - Utils.ReadXML -ERROR - OR file- 'Object Manager/OR/Desktop_ContentCatalog.xml.xml'  is not present in the OR folder location. Error - D:\New folder\automation_practice_demo\Object Manager\OR\Desktop_ContentCatalog.xml.xml (The system cannot find the file specified)
+2025-08-04 20:42:18,095 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 20:42:18,110 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7d1afb895916245785f147dbd5a9a60c, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58482/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d1afb895916245785f147dbd5a9a60c
+2025-08-04 20:42:18,111 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 20:42:20,115 - Utils.ReadXML -ERROR - OR file- 'Object Manager/OR/Desktop_ContentCatalog.xml.xml'  is not present in the OR folder location. Error - D:\New folder\automation_practice_demo\Object Manager\OR\Desktop_ContentCatalog.xml.xml (The system cannot find the file specified)
+2025-08-04 20:42:20,116 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 20:42:20,133 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7d1afb895916245785f147dbd5a9a60c, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58482/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d1afb895916245785f147dbd5a9a60c
+2025-08-04 20:42:20,142 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-04 20:42:24,753 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 20:42:25,791 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-04 20:42:26,236 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-04 20:42:27,061 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 20:42:28,950 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-04 20:42:28,951 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 21:19:02,921 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-04 21:19:02,928 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-04 21:19:03,631 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 21:19:03,976 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 21:19:05,466 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-04 21:19:05,589 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-04 21:19:05,589 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-04 21:19:06,003 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 21:19:06,055 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-04 21:19:06,060 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-04 21:19:06,108 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 21:19:06,520 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 21:19:07,695 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 21:19:07,696 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-04 21:19:07,838 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 21:19:10,709 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-04 21:19:11,705 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 21:19:11,880 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-04 21:19:11,881 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-04 21:19:15,782 - Utils.ReadXML -ERROR - Object 'TextBox_username' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 21:19:15,783 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 21:19:15,811 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd79e3f94ce72907134e8199ff208668, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60061}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60061/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd79e3f94ce72907134e8199ff208668
+2025-08-04 21:19:15,813 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 21:19:17,836 - Utils.ReadXML -ERROR - Object 'Textpass_Password' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 21:19:17,838 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 21:19:17,854 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd79e3f94ce72907134e8199ff208668, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60061}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60061/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd79e3f94ce72907134e8199ff208668
+2025-08-04 21:19:17,856 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 21:19:19,867 - Utils.ReadXML -ERROR - Object 'Button_Login' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 21:19:19,869 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 21:19:19,892 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd79e3f94ce72907134e8199ff208668, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60061}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60061/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd79e3f94ce72907134e8199ff208668
+2025-08-04 21:19:19,897 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-04 21:19:22,378 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 21:19:23,026 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-04 21:19:23,347 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-04 21:19:23,793 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 21:19:25,091 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-04 21:19:25,092 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 21:47:15,774 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-04 21:47:15,784 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-04 21:47:16,610 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 21:47:16,998 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 21:47:18,628 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-04 21:47:18,758 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-04 21:47:18,759 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-04 21:47:21,222 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 21:47:21,309 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-04 21:47:21,317 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-04 21:47:21,401 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 21:47:21,839 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 21:47:23,165 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 21:47:23,165 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-04 21:47:23,406 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 21:47:28,422 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-04 21:47:29,488 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 21:47:29,665 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-04 21:47:29,666 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-04 21:47:33,497 - Utils.ReadXML -ERROR - Object 'TextBox_username' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 21:47:33,499 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 21:47:33,536 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc3cf5cfb53b162fb50e14d1b800aa34, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61405}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61405/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc3cf5cfb53b162fb50e14d1b800aa34
+2025-08-04 21:47:33,537 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 21:47:35,552 - Utils.ReadXML -ERROR - Object 'Textpass_Password' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 21:47:35,554 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 21:47:35,569 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc3cf5cfb53b162fb50e14d1b800aa34, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61405}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61405/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc3cf5cfb53b162fb50e14d1b800aa34
+2025-08-04 21:47:35,570 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 21:47:37,588 - Utils.ReadXML -ERROR - Object 'Button_Login' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 21:47:37,590 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 21:47:37,607 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc3cf5cfb53b162fb50e14d1b800aa34, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61405}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61405/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc3cf5cfb53b162fb50e14d1b800aa34
+2025-08-04 21:47:37,612 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-04 21:47:40,959 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 21:47:41,609 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-04 21:47:41,977 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-04 21:47:42,429 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 21:47:43,869 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-04 21:47:43,869 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 23:37:38,988 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-04 23:37:38,996 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-04 23:37:40,023 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 23:37:40,486 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 23:37:46,367 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-04 23:37:46,565 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-04 23:37:46,565 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-04 23:37:47,151 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 23:37:47,235 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-04 23:37:47,262 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-04 23:37:47,363 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 23:37:47,916 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 23:37:49,445 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 23:37:49,446 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-04 23:37:49,640 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 23:37:56,424 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-04 23:37:57,973 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 23:37:58,255 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-04 23:37:58,256 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-04 23:38:01,835 - Utils.ReadXML -ERROR - Object 'TextBox_username' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 23:38:01,836 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 23:38:01,870 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5d0d810a73e3043ca3f81b3e432a5202, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63803/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d0d810a73e3043ca3f81b3e432a5202
+2025-08-04 23:38:01,872 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 23:38:03,887 - Utils.ReadXML -ERROR - Object 'Textpass_Password' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 23:38:03,890 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 23:38:03,919 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5d0d810a73e3043ca3f81b3e432a5202, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63803/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d0d810a73e3043ca3f81b3e432a5202
+2025-08-04 23:38:03,922 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 23:38:05,931 - Utils.ReadXML -ERROR - Object 'Button_Login' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 23:38:05,932 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 23:38:05,957 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5d0d810a73e3043ca3f81b3e432a5202, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63803/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d0d810a73e3043ca3f81b3e432a5202
+2025-08-04 23:38:05,971 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-04 23:38:09,444 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 23:38:10,382 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-04 23:38:10,908 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-04 23:38:11,543 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 23:38:13,308 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-04 23:38:13,310 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 23:57:38,451 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-04 23:57:38,463 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-04 23:57:39,561 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 23:57:40,221 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 23:57:42,623 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-04 23:57:42,848 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-04 23:57:42,849 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-04 23:57:43,505 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 23:57:43,624 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-04 23:57:43,636 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-04 23:57:43,740 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-04 23:57:44,506 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 23:57:46,883 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-04 23:57:46,885 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-04 23:57:47,293 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-04 23:57:52,053 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-04 23:57:53,352 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 23:57:53,635 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-04 23:57:53,637 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-04 23:57:57,127 - Utils.ReadXML -ERROR - Object 'TextBox_username' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 23:57:57,129 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 23:57:57,169 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5edb3d3f0b32f4e316c1fba674b3967, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64530}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64530/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5edb3d3f0b32f4e316c1fba674b3967
+2025-08-04 23:57:57,170 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 23:57:59,185 - Utils.ReadXML -ERROR - Object 'Textpass_Password' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 23:57:59,187 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 23:57:59,204 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5edb3d3f0b32f4e316c1fba674b3967, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64530}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64530/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5edb3d3f0b32f4e316c1fba674b3967
+2025-08-04 23:57:59,206 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-04 23:58:01,221 - Utils.ReadXML -ERROR - Object 'Button_Login' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-04 23:58:01,222 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-04 23:58:01,238 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5edb3d3f0b32f4e316c1fba674b3967, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64530}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64530/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5edb3d3f0b32f4e316c1fba674b3967
+2025-08-04 23:58:01,249 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-04 23:58:04,847 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 23:58:05,858 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-04 23:58:06,367 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-04 23:58:07,241 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-04 23:58:09,515 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-04 23:58:09,517 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 00:00:19,188 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-05 00:00:19,197 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-05 00:00:20,274 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 00:00:20,899 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 00:00:22,675 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-05 00:00:22,926 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-05 00:00:22,928 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-05 00:00:23,604 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:00:23,739 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-05 00:00:23,751 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-05 00:00:23,864 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 00:00:24,531 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:00:26,540 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 00:00:26,541 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-05 00:00:26,782 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 00:00:31,622 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-05 00:00:33,087 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:00:33,345 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-05 00:00:33,347 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-05 00:00:36,967 - Utils.ReadXML -ERROR - Object 'TextBox_username' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:00:36,969 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:00:37,067 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d1ae3fe86ff0191663cf9432cd8db4f6, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64666}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64666/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d1ae3fe86ff0191663cf9432cd8db4f6
+2025-08-05 00:00:37,068 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-05 00:00:39,088 - Utils.ReadXML -ERROR - Object 'Textpass_Password' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:00:39,091 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:00:39,110 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d1ae3fe86ff0191663cf9432cd8db4f6, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64666}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64666/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d1ae3fe86ff0191663cf9432cd8db4f6
+2025-08-05 00:00:39,112 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-05 00:00:41,131 - Utils.ReadXML -ERROR - Object 'Button_Login' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:00:41,132 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:00:41,152 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d1ae3fe86ff0191663cf9432cd8db4f6, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64666}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64666/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d1ae3fe86ff0191663cf9432cd8db4f6
+2025-08-05 00:00:41,166 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-05 00:00:45,124 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:00:46,272 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-05 00:00:46,817 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-05 00:00:47,834 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:00:50,454 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-05 00:00:50,455 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 00:07:34,561 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-05 00:07:34,570 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-05 00:07:35,668 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 00:07:36,287 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 00:07:38,135 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-05 00:07:38,368 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-05 00:07:38,369 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-05 00:07:39,014 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:07:39,116 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-05 00:07:39,127 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-05 00:07:39,222 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 00:07:39,968 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:07:42,064 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 00:07:42,065 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-05 00:07:42,306 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 00:07:47,072 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-05 00:07:48,566 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:07:48,876 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-05 00:07:48,877 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-05 00:07:52,201 - Utils.ReadXML -ERROR - Object 'TextBox_username' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:07:52,203 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:07:52,247 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0cfc4f2ade3b4fae0dd251e2abbb6f7, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64974}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64974/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0cfc4f2ade3b4fae0dd251e2abbb6f7
+2025-08-05 00:07:52,252 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-05 00:07:54,268 - Utils.ReadXML -ERROR - Object 'Textpass_Password' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:07:54,270 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:07:54,285 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0cfc4f2ade3b4fae0dd251e2abbb6f7, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64974}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64974/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0cfc4f2ade3b4fae0dd251e2abbb6f7
+2025-08-05 00:07:54,287 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-05 00:07:56,310 - Utils.ReadXML -ERROR - Object 'Button_Login' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:07:56,313 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:07:56,335 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0cfc4f2ade3b4fae0dd251e2abbb6f7, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64974}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64974/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0cfc4f2ade3b4fae0dd251e2abbb6f7
+2025-08-05 00:07:56,346 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-05 00:07:59,676 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:08:01,074 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-05 00:08:01,643 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-05 00:08:02,642 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:08:04,912 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-05 00:08:04,913 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 00:15:36,288 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-05 00:15:36,296 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-05 00:15:37,333 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 00:15:37,915 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 00:15:39,983 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-05 00:15:40,214 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-05 00:15:40,215 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-05 00:15:40,862 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:15:40,954 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-05 00:15:40,967 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-05 00:15:41,074 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 00:15:41,714 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:15:43,509 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 00:15:43,511 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-05 00:15:43,740 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 00:15:48,249 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-05 00:15:50,046 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:15:50,353 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-05 00:15:50,355 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-05 00:15:54,041 - Utils.ReadXML -ERROR - Object 'TextBox_username' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:15:54,043 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:15:54,074 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e0e306821b0aa2f9813f8032a5c19c5, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65285}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65285/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e0e306821b0aa2f9813f8032a5c19c5
+2025-08-05 00:15:54,077 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-05 00:15:56,097 - Utils.ReadXML -ERROR - Object 'Textpass_Password' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:15:56,099 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:15:56,117 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e0e306821b0aa2f9813f8032a5c19c5, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65285}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65285/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e0e306821b0aa2f9813f8032a5c19c5
+2025-08-05 00:15:56,119 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-05 00:15:58,135 - Utils.ReadXML -ERROR - Object 'Button_Login' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:15:58,136 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:15:58,152 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e0e306821b0aa2f9813f8032a5c19c5, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65285}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65285/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e0e306821b0aa2f9813f8032a5c19c5
+2025-08-05 00:15:58,161 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-05 00:16:01,543 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:16:02,630 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-05 00:16:03,044 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-05 00:16:03,817 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:16:05,820 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-05 00:16:05,821 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 00:18:25,463 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-05 00:18:25,472 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-05 00:18:26,492 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 00:18:27,064 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 00:18:28,799 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-05 00:18:29,043 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-05 00:18:29,045 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-05 00:18:29,708 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:18:29,818 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-05 00:18:29,827 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-05 00:18:29,932 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 00:18:30,555 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:18:32,313 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 00:18:32,314 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-05 00:18:32,563 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 00:18:36,612 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-05 00:18:38,105 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:18:38,380 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-05 00:18:38,380 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-05 00:18:41,968 - Utils.ReadXML -ERROR - Object 'TextBox_username' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:18:41,972 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:18:42,011 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ae5bbd291f4888935f7ea9f67abb2b29, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65424/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae5bbd291f4888935f7ea9f67abb2b29
+2025-08-05 00:18:42,013 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-05 00:18:44,038 - Utils.ReadXML -ERROR - Object 'Textpass_Password' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:18:44,040 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:18:44,061 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ae5bbd291f4888935f7ea9f67abb2b29, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65424/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae5bbd291f4888935f7ea9f67abb2b29
+2025-08-05 00:18:44,062 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-05 00:18:46,089 - Utils.ReadXML -ERROR - Object 'Button_Login' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:18:46,092 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:18:46,110 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ae5bbd291f4888935f7ea9f67abb2b29, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65424/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae5bbd291f4888935f7ea9f67abb2b29
+2025-08-05 00:18:46,119 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-05 00:18:49,489 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:18:50,435 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-05 00:18:50,839 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-05 00:18:51,507 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:18:53,933 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-05 00:18:53,934 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 00:35:03,603 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-05 00:35:03,611 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-05 00:35:04,685 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 00:35:05,279 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 00:35:07,333 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-05 00:35:07,537 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-05 00:35:07,538 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-05 00:35:10,207 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:35:10,304 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-05 00:35:10,316 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-05 00:35:10,405 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 00:35:11,084 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:35:12,906 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 00:35:12,906 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-05 00:35:13,189 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 00:35:17,347 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-05 00:35:18,693 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:35:18,943 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-05 00:35:18,944 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-05 00:35:23,354 - Utils.ReadXML -ERROR - Object 'TextBox_username' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:35:23,356 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:35:23,397 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5353a32ff57cf74ad9a66e3fed4c1c27, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49980}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49980/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5353a32ff57cf74ad9a66e3fed4c1c27
+2025-08-05 00:35:23,399 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-05 00:35:25,421 - Utils.ReadXML -ERROR - Object 'Textpass_Password' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:35:25,423 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:35:25,438 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5353a32ff57cf74ad9a66e3fed4c1c27, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49980}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49980/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5353a32ff57cf74ad9a66e3fed4c1c27
+2025-08-05 00:35:25,440 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-05 00:35:27,451 - Utils.ReadXML -ERROR - Object 'Button_Login' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:35:27,453 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:35:27,470 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5353a32ff57cf74ad9a66e3fed4c1c27, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49980}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49980/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5353a32ff57cf74ad9a66e3fed4c1c27
+2025-08-05 00:35:27,480 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-05 00:35:30,922 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:35:31,942 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-05 00:35:32,419 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-05 00:35:33,053 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:35:35,408 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-05 00:35:35,409 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 00:52:29,591 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-05 00:52:29,599 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-05 00:52:30,625 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 00:52:31,189 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 00:52:33,295 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-05 00:52:33,505 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-05 00:52:33,506 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-05 00:52:34,181 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:52:34,291 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-05 00:52:34,299 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-05 00:52:34,383 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 00:52:35,045 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:52:37,022 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 00:52:37,023 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-05 00:52:37,275 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 00:52:43,115 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-05 00:52:44,417 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:52:44,686 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-05 00:52:44,687 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-05 00:52:48,830 - Utils.ReadXML -ERROR - Object 'TextBox_username' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:52:48,833 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:52:48,876 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8693a5f6c7b2dcf6724483d34606f213, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50586/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8693a5f6c7b2dcf6724483d34606f213
+2025-08-05 00:52:48,877 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-05 00:52:50,889 - Utils.ReadXML -ERROR - Object 'Textpass_Password' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:52:50,891 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:52:50,906 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8693a5f6c7b2dcf6724483d34606f213, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50586/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8693a5f6c7b2dcf6724483d34606f213
+2025-08-05 00:52:50,908 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-05 00:52:52,919 - Utils.ReadXML -ERROR - Object 'Button_Login' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 00:52:52,922 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 00:52:52,940 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8693a5f6c7b2dcf6724483d34606f213, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50586/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8693a5f6c7b2dcf6724483d34606f213
+2025-08-05 00:52:52,954 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-05 00:52:56,206 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:52:57,196 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-05 00:52:57,658 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-05 00:52:58,387 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 00:53:00,797 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-05 00:53:00,797 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 01:03:47,716 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-05 01:03:47,727 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-05 01:03:49,147 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 01:03:49,851 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 01:03:51,825 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-05 01:03:52,052 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-05 01:03:52,054 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-05 01:03:52,792 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 01:03:52,895 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-05 01:03:52,904 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-05 01:03:53,022 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 01:03:53,703 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 01:03:55,695 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 01:03:55,696 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-05 01:03:55,924 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 01:04:00,358 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-05 01:04:01,722 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 01:04:01,997 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-05 01:04:01,998 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-05 01:04:05,541 - Utils.ReadXML -ERROR - Object 'TextBox_username' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 01:04:05,543 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 01:04:05,578 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dee41aa0550bed9f43c7ebb48f1fdce0, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51080}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51080/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dee41aa0550bed9f43c7ebb48f1fdce0
+2025-08-05 01:04:05,583 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-05 01:04:07,610 - Utils.ReadXML -ERROR - Object 'Textpass_Password' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 01:04:07,611 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 01:04:07,628 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dee41aa0550bed9f43c7ebb48f1fdce0, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51080}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51080/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dee41aa0550bed9f43c7ebb48f1fdce0
+2025-08-05 01:04:07,630 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-05 01:04:09,641 - Utils.ReadXML -ERROR - Object 'Button_Login' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 01:04:09,644 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 01:04:09,659 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dee41aa0550bed9f43c7ebb48f1fdce0, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51080}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51080/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dee41aa0550bed9f43c7ebb48f1fdce0
+2025-08-05 01:04:09,668 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-05 01:04:13,085 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 01:04:14,253 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-05 01:04:15,074 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-05 01:04:16,166 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 01:04:18,660 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-05 01:04:18,661 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 01:15:27,574 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-05 01:15:27,584 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-05 01:15:28,791 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 01:15:29,381 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 01:15:31,440 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-05 01:15:31,633 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-05 01:15:31,636 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-05 01:15:32,364 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 01:15:32,462 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-05 01:15:32,472 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-05 01:15:32,601 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 01:15:33,312 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 01:15:35,332 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 01:15:35,333 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-05 01:15:35,579 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 01:15:39,932 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-05 01:15:41,284 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 01:15:41,572 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-05 01:15:41,573 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-05 01:15:45,463 - Utils.ReadXML -ERROR - Object 'TextBox_username' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 01:15:45,465 - SeleniumCore.WebActions -ERROR - Object TextBox_username is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 01:15:45,499 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3fd6bb7d1e422727276dfc641fa4e7ed, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51508/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3fd6bb7d1e422727276dfc641fa4e7ed
+2025-08-05 01:15:45,502 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-05 01:15:47,513 - Utils.ReadXML -ERROR - Object 'Textpass_Password' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 01:15:47,515 - SeleniumCore.WebActions -ERROR - Object Textpass_Password is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 01:15:47,532 - SeleniumCore.WebActions -ERROR - javascript error: Cannot set properties of null (setting 'value')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3fd6bb7d1e422727276dfc641fa4e7ed, executeScript {script=arguments[0].value='', args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51508/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3fd6bb7d1e422727276dfc641fa4e7ed
+2025-08-05 01:15:47,533 - SeleniumCore.WebActions -ERROR - Error while sending keys to element/n Error is :Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.element" is null
+2025-08-05 01:15:49,555 - Utils.ReadXML -ERROR - Object 'Button_Login' under page 'Pyrimdcore_HomePage' is not present. Please check following OR files  - Desktop_ContentCatalog
+2025-08-05 01:15:49,557 - SeleniumCore.WebActions -ERROR - Object Button_Login is not found on Page Pyrimdcore_HomePage for XPATH - 
+2025-08-05 01:15:49,583 - SeleniumCore.WebActions -ERROR - javascript error: Cannot read properties of null (reading 'click')
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'JHMWDX3', ip: '192.168.1.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3fd6bb7d1e422727276dfc641fa4e7ed, executeScript {script=arguments[0].click();, args=[null]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ABHISH~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51508/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3fd6bb7d1e422727276dfc641fa4e7ed
+2025-08-05 01:15:49,592 - SeleniumCore.WebActions -ERROR - Error while clicking element/n Error is :Must provide a location for a move action.
+2025-08-05 01:15:52,996 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 01:15:54,088 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-05 01:15:54,691 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-05 01:15:55,518 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 01:15:57,728 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-05 01:15:57,730 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 01:28:40,134 - Launcher.Launcher -INFO - Automation execution begins
+2025-08-05 01:28:40,140 - Utils.ReadProperty -INFO - Project variable fetched successfully from property file.
+2025-08-05 01:28:40,863 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 01:28:41,207 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 01:28:42,717 - Launcher.Launcher -INFO - Fetching data from Test Suite file
+2025-08-05 01:28:42,844 - DataLibs.Excel -INFO - Test Suite file "TestSuite" execution data fetched successfully.
+2025-08-05 01:28:42,845 - Launcher.Launcher -INFO - Preparing TestNG XML file
+2025-08-05 01:28:43,308 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 01:28:43,369 - DataLibs.Excel -INFO - Data against keyword  "Chrome" fetched successfully.
+2025-08-05 01:28:43,376 - Utils.CreateTestNGFile -INFO - Test Suite/TestNG Suite/ - TestNG file created successfully.
+2025-08-05 01:28:43,446 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/Config.xlsx.
+2025-08-05 01:28:43,887 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 01:28:45,040 - DataLibs.Excel -INFO - Value of 'Execution Status' column set to 'Not Run' for the test cases marked for execution in Test Suite file - TestSuite
+2025-08-05 01:28:45,041 - Launcher.Launcher -INFO - Fetching data from Test Data file common values sheet
+2025-08-05 01:28:45,204 - DataLibs.Excel -INFO - Dictionary created successfully for file - ./src/dataEngine/DataFiles/MasterTestData_QA.xlsx.
+2025-08-05 01:28:48,091 - SeleniumCore.BaseClass -INFO - Webdriver launched successfully
+2025-08-05 01:28:49,108 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 01:28:49,275 - DataLibs.Excel -INFO - Data against Testcase  "HomePage.HomePageVerify_TC_1" fetched successfully.
+2025-08-05 01:28:49,276 - SeleniumCore.BaseClass -INFO - test data fetched from excel successfully
+2025-08-05 01:28:53,023 - Utils.ReadXML -INFO - Page- Pyrimdcore_HomePage - Element- TextBox_username, locator type- xpath, locator value- //input[@id='email'] fetched successfully from file Object Manager/OR/Desktop_ContentCatalog.xml.
+2025-08-05 01:28:55,238 - Utils.ReadXML -INFO - Page- Pyrimdcore_HomePage - Element- Textpass_Password, locator type- xpath, locator value- //input[@id='passwd'] fetched successfully from file Object Manager/OR/Desktop_ContentCatalog.xml.
+2025-08-05 01:28:57,469 - Utils.ReadXML -INFO - Page- Pyrimdcore_HomePage - Element- Button_Login, locator type- xpath, locator value- //button[@id='SubmitLogin'] fetched successfully from file Object Manager/OR/Desktop_ContentCatalog.xml.
+2025-08-05 01:29:00,526 - Utils.ReadXML -INFO - Page- Pyrimdcore_HomePage - Element- indodesk, locator type- xpath, locator value- //a[@title='Add my first address'] fetched successfully from file Object Manager/OR/Desktop_ContentCatalog.xml.
+2025-08-05 01:29:03,341 - Utils.ReadXML -INFO - Page- Pyrimdcore_HomePage - Element- womanbtn, locator type- xpath, locator value- //a[@title="Women"] fetched successfully from file Object Manager/OR/Desktop_ContentCatalog.xml.
+2025-08-05 01:29:07,556 - Utils.ReadXML -INFO - Page- Pyrimdcore_HomePage - Element- Topsbtn, locator type- xpath, locator value- //div[@id="categories_block_left"]//li[.//a[contains(text(),'Tops')]] fetched successfully from file Object Manager/OR/Desktop_ContentCatalog.xml.
+2025-08-05 01:29:10,640 - Utils.ReadXML -INFO - Page- Pyrimdcore_HomePage - Element- Fadedshortsleevstshirt, locator type- xpath, locator value- //img[@title='Faded Short Sleeve T-shirts'] fetched successfully from file Object Manager/OR/Desktop_ContentCatalog.xml.
+2025-08-05 01:29:11,603 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 01:29:12,279 - Utils.GenericFunction -INFO - stacked reports Raw data successfully
+2025-08-05 01:29:12,592 - DataLibs.Excel -INFO - Test Suite file "TestSuite" blocked test case data fetched successfully.
+2025-08-05 01:29:13,035 - DataLibs.Excel -INFO - Process EXCEL.EXE killed successfully
+2025-08-05 01:29:14,447 - DataLibs.Excel -INFO - TestSuite updated Sucessfully.
+2025-08-05 01:29:14,448 - DataLibs.Excel -INFO - 'Execution Details' updated against the test cases marked for execution in Test Suite file - TestSuite
